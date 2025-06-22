@@ -70,3 +70,5 @@ This portfolio is for personal use and learning.
 If you wish to use it, please fork and **credit this repository** in your README.
 
 > ⚠️ Original design and structure inspired by [Jigar Sable's Portfolio](https://github.com/jigar-sable/Portfolio-Website)
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a1afb44-fd34-432e-a7c7-62f9bd5f2380/deploy-status)](https://app.netlify.com/projects/afzalt3ch-portfolio/deploys)
