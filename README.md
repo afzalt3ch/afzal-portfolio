@@ -25,7 +25,7 @@ A personal portfolio website showcasing my projects, skills, and experience in f
 ## 🗣️ Meet afzBot – My Personal AI Chatbot
 
 <p align="center">
-  <img src="https://github.com/afzalt3ch/afzal-portfolio/tree/main/Personal_ChatBot/screenshots" alt="afzBot Avatar" width="200px"/>
+  <img src="https://github.com/afzalt3ch/afzal-portfolio/blob/main/Personal_ChatBot/screenshots/chatbot.png" alt="afzBot Avatar" width="200px"/>
 </p>
 
 This portfolio includes an integrated **Personal AI Chatbot** named **afzBot**, trained using a fine-tuned **BERT Mini** model hosted on Hugging Face.
