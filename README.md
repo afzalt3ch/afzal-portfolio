@@ -36,6 +36,7 @@ Afzal_Portfolio/
 ├── projects.json
 ```
 
+
 ---
 
 ## 🛠️ Tech Stack
@@ -44,6 +45,21 @@ Afzal_Portfolio/
 - jQuery, ScrollReveal, Isotope.js, Vanilla Tilt
 - Netlify (Hosting)
 - GitHub (Version Control)
+
+---
+
+## 📊 Analytics
+
+This website uses [Google Analytics](https://analytics.google.com/) to collect anonymous visitor data and monitor site performance.  
+The [Google Analytics 4 (GA4)](https://support.google.com/analytics/answer/10089681) Measurement ID is embedded in the HTML for traffic insights.
+
+> No personally identifiable information (PII) is collected. The tracking ID used is public by design.
+
+---
+
+## 🌐 Hosting
+
+This portfolio is deployed on [Netlify](https://www.netlify.com/), enabling continuous deployment from GitHub with HTTPS and fast CDN delivery.
 
 ---
 
@@ -71,4 +87,3 @@ If you wish to use it, please fork and **credit this repository** in your README
 
 > ⚠️ Original design and structure inspired by [Jigar Sable's Portfolio](https://github.com/jigar-sable/Portfolio-Website)
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5a1afb44-fd34-432e-a7c7-62f9bd5f2380/deploy-status)](https://app.netlify.com/projects/afzalt3ch-portfolio/deploys)
