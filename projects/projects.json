@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Website Builder",
+    "desc": "Advanced drag-and-drop website builder app with export functionality. Built using HTML, CSS, JavaScript, Electron, and PyQt5.",
+    "image": "websitebuilder",
+    "category": "fullstack",
+    "links": {
+      "view": "https://github.com/afzalt3ch/weebee-website-builder/blob/main/screenshots/weebee_demo.gif",
+      "code": "https://github.com/afzalt3ch/weebee-website-builder"
+    }
+  },
+  {
+    "name": "Food Token Booking System",
+    "desc": "Web app for daily food token bookings with time restrictions, PDF generation, and SMS/email notifications. Built using Python and Flask.",
+    "image": "food",
+    "category": "fullstack",
+    "links": {
+      "view": "https://github.com/afzalt3ch/food-booking",
+      "code": "https://github.com/afzalt3ch/food-booking"
+    }
+  },
+  {
+    "name": "Sign Language to Text",
+    "desc": "ML-based sign language recognition system using EfficientNet and PyTorch. Converts hand gestures to real-time text.",
+    "image": "signtotext",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/afzalt3ch/Sign-To-Text/blob/main/screenshots/sign-to-text-demo.jpeg",
+      "code": "https://github.com/afzalt3ch/Sign-To-Text"
+    }
+  },
+  {
+    "name": "Emotion Recognition",
+    "desc": "Real-time emotion detection from webcam feed using CNN model and FER2013 dataset, with emoji overlay via Flask backend.",
+    "image": "emotion",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/afzalt3ch/emotion-detection/blob/main/imgs/emotion_demo.png",
+      "code": "https://github.com/afzalt3ch/emotion-detection"
+    }
+  },
+  {
+    "name": "Car Price Prediction",
+    "desc": "ML regression model predicting car prices based on parameters like mileage, fuel type, and transmission.",
+    "image": "carprice",
+    "category": "datascience",
+    "links": {
+      "view": "https://github.com/afzalt3ch/Car-Price-Prediction",
+      "code": "https://github.com/afzalt3ch/Car-Price-Prediction"
+    }
+  },
+  {
+    "name": "Unemployment Analysis",
+    "desc": "Interactive data analysis of unemployment trends using Python, Pandas, and Matplotlib. Insights visualized via graphs.",
+    "image": "unemploy",
+    "category": "datascience",
+    "links": {
+      "view": "https://github.com/afzalt3ch/Unemployment-Rate-Analysis/blob/main/Screenshots/dashboard.png",
+      "code": "https://github.com/afzalt3ch/Unemployment-Rate-Analysis"
+    }
+  },
+  {
+    "name": "CRM Chatbot",
+    "desc": "Flask-based chatbot using DistilBERT for intent recognition, entity extraction, and session memory for CRM support.",
+    "image": "chatbot",
+    "category": "ml",
+    "links": {
+      "view": "https://github.com/afzalt3ch/CRM-AI-Chatbot/blob/main/screenshots/crm-chatbot.gif",
+      "code": "https://github.com/afzalt3ch/CRM-AI-Chatbot"
+    }
+  },
+  {
+    "name": "Walmart Sales Analysis",
+    "desc": "Walmart Sales Analysis explores trends and patterns in store and department sales data.",
+    "image": "walmart",
+    "category": "datascience",
+    "links": {
+      "view": "https://github.com/afzalt3ch/Walmart-Sales-Analysis/blob/main/Screenshot/dashboard.png",
+      "code": "https://github.com/afzalt3ch/Walmart-Sales-Analysis"
+    }
+  },
+  {
+    "name": "Iris Classification",
+    "desc": "A machine learning model that classifies iris flowers into Setosa, Versicolor, and Virginica using logistic regression.",
+    "image": "iris",
+    "category": "datascience",
+    "links": {
+      "view": "https://github.com/afzalt3ch/Iris-Flower-Classification",
+      "code": "https://github.com/afzalt3ch/Iris-Flower-Classification"
+    }
+  }
+]
