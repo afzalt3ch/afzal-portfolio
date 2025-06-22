@@ -22,18 +22,59 @@ A personal portfolio website showcasing my projects, skills, and experience in f
 
 ---
 
+## 🗣️ Meet afzBot – My Personal AI Chatbot
+
+<p align="center">
+  <img src="https://github.com/afzalt3ch/afzal-portfolio/tree/main/Personal_ChatBot/screenshots" alt="afzBot Avatar" width="200px"/>
+</p>
+
+This portfolio includes an integrated **Personal AI Chatbot** named **afzBot**, trained using a fine-tuned **BERT Mini** model hosted on Hugging Face.
+
+### 🧠 afzBot Highlights:
+- Understands portfolio-related queries including:
+  - About Me
+  - Education
+  - Experience
+  - Projects
+  - Certifications
+  - Skills
+  - Tech Stack
+  - Resume
+  - Contact
+  - Hobbies
+- Trained on custom intents from `portfolio_chatbot_intents.json`
+- Model trained using Hugging Face Transformers in Google Colab
+- Inference served using Hugging Face Inference API
+- Frontend interaction via JavaScript (`chatbot.js`)
+
+### 🛠️ Tech Stack Used:
+- `BERT Mini` (Hugging Face)
+- Custom fine-tuning with Transformers
+- Hosted using Hugging Face Inference Endpoint
+- JavaScript fetch-based interaction on the frontend
+
+> 💬 Try asking things like “What are your hobbies?”, “Show me your resume”, or “Tell me about your tech stack” – afzBot will answer instantly!
+
+---
+
 ## 📁 Folder Structure
 
 ```
 Afzal_Portfolio/
 ├── assets/
-│   ├── images/
-│   │   └── projects/ (all project images)
+│ ├── images/
+│ │ └── projects/ (all project images)
 ├── projects.html
 ├── index.html
 ├── script.js
 ├── style.css
 ├── projects.json
+├── Personal_ChatBot/
+│ ├── Data/
+│ │ └── portfolio_chatbot_intents.json
+│ ├── Training_Model/
+│ │ └── PersonalAiChatBot.ipynb
+│ └── chatbot.js
 ```
 
 
@@ -45,6 +86,7 @@ Afzal_Portfolio/
 - jQuery, ScrollReveal, Isotope.js, Vanilla Tilt
 - Netlify (Hosting)
 - GitHub (Version Control)
+- Hugging Face (AI model hosting)
 
 ---
 
