@@ -5,6 +5,8 @@ const closeBtn = document.getElementById('close-chatbot');
 const sendBtn = document.getElementById('send-btn');
 const userInput = document.getElementById('user-input');
 const chatMessages = document.getElementById('chatbot-messages');
+const botLoader = document.getElementById('chatbot-loader');
+const loaderOverlay = document.getElementById('loader-overlay');
 
 // ==== Local Intent Dictionaries ====
 const greetings = ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"];
@@ -77,8 +79,16 @@ async function sendMessage() {
 
 
   // API fallback
+
   try {
-    simulateBotTyping(); // Show typing first
+    simulateBotTyping(); // typing dots first
+
+    // show loader only if slow (>5s)
+    const loaderTimer = setTimeout(() => {
+      document.getElementById('chatbot-loader').classList.remove('hidden');
+    }, 5000);
+
+
     const res = await fetch("https://afzal12345-my-chatbot-backend.hf.space/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -89,16 +99,20 @@ async function sendMessage() {
     const intent = data.intent || "fallback";
     const reply = responseDictionary[intent] || responseDictionary["fallback"];
 
-    // Wait briefly to simulate typing
+    clearTimeout(loaderTimer);
+    document.getElementById('chatbot-loader').classList.add('hidden');
+    
     setTimeout(() => {
       removeTypingIndicator();
       appendMessage("bot", reply);
-    }, 1000);
+    }, 800);
 
   } catch (err) {
+    loaderOverlay.classList.add('hidden');
     removeTypingIndicator();
-    appendMessage("bot", "Oops! Unable to reach the server right now.");
+    appendMessage("bot", "Oops! Server is waking up 😴 Please try again.");
   }
+
 }
 
 

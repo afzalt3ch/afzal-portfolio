@@ -392,10 +392,20 @@
 
 <!-- Chatbot UI -->
 <div class="chatbot-container" id="chatbot">
+
+    <!-- 🔥 Loader MUST be first or last child -->
+  <div id="chatbot-loader" class="chatbot-loader hidden">
+    <div class="loader-card">
+      <img src="assets/images/TT_Chatbot_loading.gif" />
+      <h4>Warming up the AI</h4>
+      <p>The assistant was asleep. Getting ready…</p>
+    </div>
+  </div>
   <div class="chatbot-header">
     <span>Ask AfzBot 🤖</span>
     <button id="close-chatbot">&times;</button>
   </div>
+
   <div class="chatbot-messages" id="chatbot-messages">
   <div class="message bot">
       Hi! I'm <strong>AfzBot</strong> 🤖<br><br>
@@ -440,7 +450,6 @@
 
 <script src="./assets/js/script.js"></script>
 <script src="./Personal_ChatBot/chatbot.js"></script>
-
 </body>
 </html>
 

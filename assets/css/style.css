@@ -1246,6 +1246,7 @@ form .button-area {
   flex-direction: column;
   box-shadow: 0 5px 15px rgba(0,0,0,0.2);
   z-index: 9999;
+  overflow: hidden;
 }
 
 .chatbot-header {
@@ -1449,3 +1450,41 @@ form .button-area {
   }
 }
 
+/* ===== Full Chatbot Loading Overlay ===== */
+.chatbot-loader {
+  position: absolute;
+  inset: 0;
+  background: rgba(18, 22, 40, 0.92);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.chatbot-loader.hidden {
+  display: none;
+}
+
+.loader-card {
+  text-align: center;
+  padding: 28px 30px;
+  border-radius: 18px;
+  background: rgba(60, 90, 170, 0.25);
+  border: 1px solid rgba(130, 180, 255, 0.25);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
+  color: #f2f6ff;
+}
+
+.loader-card img {
+  width: 80px;
+  margin-bottom: 14px;
+}
+
+.loader-card h4 {
+  margin: 6px 0 6px;
+}
+
+.loader-card p {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
